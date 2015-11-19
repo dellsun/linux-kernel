@@ -1,6 +1,7 @@
 KVERS = $(shell uname -r)
 
-obj-m += hello.o
+obj-m := hello.o
+#modulename-objs := file1.o file2.o
 
 #EXTRA_CFLAGS = -g -O0
 
